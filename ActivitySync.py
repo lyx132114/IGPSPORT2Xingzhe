@@ -21,7 +21,7 @@ def syncData(username, password, garmin_email = None, garmin_password = None):
         "Accept-Encoding" : "gzip, deflate",
     }
 
-    igp_host = "i.igpsport.com"
+    igp_host = "app.igpsport.cN"
     if os.getenv("IGPSPORT_REGION") == "global":
         igp_host = "i.igpsport.com"
         print("国际版暂时不支持")
